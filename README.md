@@ -17,6 +17,29 @@ Imagine um ambiente de trabalho onde dois notebooks estão conectados na mesma r
 
 A primeira versão está focada em preparar essa estrutura inicial, com uma interface moderna e responsiva, pronta para ser expandida com funcionalidades de rede, acesso remoto, RDP ou VNC.
 
+## 🔧 Estrutura do projeto
+
+```PlainText
+    /conect-app-local
+    │
+    ├── /src
+    │   ├── /tauri                  # Lógica do Tauri
+    │   │   ├── main.rs             # Arquivo principal do Tauri
+    │   │   └── tauri.conf.json     # Configuração do Tauri
+    │   ├── /assets                 # Imagens, ícones e recursos estáticos
+    │   ├── /frontend               # Lógica do React + TailwindCSS
+    │   │   ├── /components         # Componentes React
+    │   │   ├── /styles             # Estilos do Tailwind
+    │   │   ├── App.tsx             # Componente principal
+    │   │   └── index.tsx           # Ponto de entrada do React
+    ├── /dist                       # Arquivo gerado pelo build (Vite)
+    ├── /icons                      # Ícones do aplicativo
+    ├── /node_modules               # Dependências do Node.js
+    ├── /package.json               # Gerenciador de pacotes
+    ├── /yarn.lock                  # Bloqueio de dependências
+    └── /README.md                  # Documentação do projeto
+```
+
 ---
 
 ## 🚀 Como executar o projeto

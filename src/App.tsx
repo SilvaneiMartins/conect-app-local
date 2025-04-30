@@ -1,9 +1,11 @@
-import './App.css'
+import './App.css';
+
+import ConnectionForm from './components/ConnectionForm';
 
 function App() {
     return (
-        <div className="text-2xl text-emerald-600">
-            Conect App
+        <div className="min-h-screen bg-gray-100 flex items-center justify-center">
+            <ConnectionForm />
         </div>
     )
 }
