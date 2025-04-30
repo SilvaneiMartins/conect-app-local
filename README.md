@@ -1,6 +1,13 @@
 ## 🖥️ Conect App Local
 
-O **Conect App Local** é uma aplicação desktop criada com [Tauri](https://tauri.app), [React](https://react.dev), [TypeScript](https://www.typescriptlang.org/) e [Tailwind CSS](https://tailwindcss.com/). O objetivo do app é facilitar o espelhamento ou controle remoto de outro notebook conectado na mesma rede local, evitando deslocamentos físicos desnecessários em ambientes como escritórios.
+[![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/seu-usuario/conect-app-local/actions)
+[![Tauri](https://img.shields.io/badge/Tauri-2.0-blue)](https://tauri.app/)
+[![Vite](https://img.shields.io/badge/Vite-Bundler-646CFF?logo=vite&logoColor=white)](https://vitejs.dev/)
+[![TailwindCSS](https://img.shields.io/badge/TailwindCSS-Enabled-38bdf8)](https://tailwindcss.com/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-Enabled-3178c6)](https://www.typescriptlang.org/)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
+Interface de linha de comando (CLI) para gerar aplicações desktop modernas com **Tauri**, usando **React**, **Vite**, **TypeScript** e **TailwindCSS**. Ideal para criar aplicações híbridas rápidas, seguras e multiplataforma, com foco em produtividade e controle total da interface.
 
 ---
 
@@ -80,3 +87,19 @@ cargo install create-tauri-app
 Este projeto está sob a licença MIT.
 Sinta-se livre para utilizá-lo, modificá-lo e distribuí-lo.
 
+---
+
+## 👤 Desenvolvedor
+
+Desenvolvido por **Silvanei Martins**
+
+-   💼 [LinkedIn](https://www.linkedin.com/in/silvanei-martins-a5412436)
+-   🌐 [Site Pessoal](https://silvaneimartins.com.br/)
+-   🐱 [GitHub](https://github.com/Store-Sam-Martins)
+-   📧 silvaneimartins_rcc@hotmail.com
+-   🎥 [YouTube](https://www.youtube.com/@silvaneimartins2487/featured)
+-   🐦 [X (Twitter)](https://x.com/SilvaneiMartins)
+
+---
+
+🚀 Sinta-se à vontade para usar este projeto como base para os seus próprios apps.
